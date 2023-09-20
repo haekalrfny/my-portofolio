@@ -1038,8 +1038,6 @@ img {
   .work__img {
     margin-bottom: 0;
   }
-
-  
 }
 /* Medium */
 @media screen and (max-width: 768px) {
@@ -1191,6 +1189,10 @@ img {
   }
   .about__description {
     padding: 0;
+  }
+
+  .about__img {
+    width: 100%;
   }
 
   /* Contact */
