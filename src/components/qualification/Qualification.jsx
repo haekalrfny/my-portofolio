@@ -125,7 +125,7 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-            <d iv className="qualification__data">
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Maken Living</h3>
                 <span className="qualification__subtitle">
@@ -140,7 +140,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </d>
+            </div>
 
             <div className="qualification__data">
               <div></div>
