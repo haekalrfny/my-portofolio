@@ -1034,6 +1034,12 @@ img {
   .work__container {
     gap: 1.25rem;
   }
+
+  .work__img {
+    margin-bottom: 0;
+  }
+
+  
 }
 /* Medium */
 @media screen and (max-width: 768px) {
