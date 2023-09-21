@@ -37,7 +37,7 @@ export const projectsData = [
     image: Work3,
     title: "Wisata App",
     category: "web",
-    link: "#",
+    link: "https://wisata-app-psi.vercel.app/",
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ export const projectsData = [
     image: Work5,
     title: "Weather App",
     category: "web",
-    link: "#",
+    link: "https://weather-app-nu-opal.vercel.app/",
   },
   {
     id: 7,
