@@ -1,10 +1,10 @@
 import React from "react";
-import "../../App.css"
+import "../../App.css";
 
 const Frontend = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Web development</h3>
+      <h3 className="skills__title">Web (Frontend)</h3>
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
@@ -32,8 +32,8 @@ const Frontend = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Node js</h3>
-              <span className="skills__level">Basic</span>
+              <h3 className="skills__name">ReactJS</h3>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
         </div>
@@ -42,7 +42,21 @@ const Frontend = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
+              <h3 className="skills__name">Redux</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
               <h3 className="skills__name">Tailwind</h3>
+              <span className="skills__level">Advanced</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Bootstrap</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -50,20 +64,6 @@ const Frontend = () => {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Git</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Postman</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">React</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>

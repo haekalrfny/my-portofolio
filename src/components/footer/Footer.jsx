@@ -30,7 +30,7 @@ const Footer = () => {
             <i className="bx bxl-facebook"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/abdurrahman-haekal-rifany-a1a057261/"
+            href="https://www.linkedin.com/in/haekalrfny/"
             className="footer__social-link"
             target="_blank"
           >

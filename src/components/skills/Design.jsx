@@ -1,24 +1,24 @@
 import React from "react";
 import "../../App.css"
 
-const Backend = () => {
+const Design = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Web (Backend)</h3>
+      <h3 className="skills__title">Editor & Design</h3>
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">NodeJS</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">Canva</h3>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">ExpressJS</h3>
-              <span className="skills__level">Basic</span>
+              <h3 className="skills__name">Figma</h3>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
         </div>
@@ -27,15 +27,15 @@ const Backend = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">MangoDB</h3>
-              <span className="skills__level">Basic</span>
+              <h3 className="skills__name">ibisPaint</h3>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Postman</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">Capcut</h3>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
         </div>
@@ -44,4 +44,4 @@ const Backend = () => {
   );
 };
 
-export default Backend;
+export default Design;

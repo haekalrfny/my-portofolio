@@ -3,6 +3,7 @@ import "../../App.css"
 import Frontend from "./Frontend";
 import Backend from "./Backend";
 import Language from "./Language";
+import Design from "./Design";
 
 const Skills = () => {
   return (
@@ -11,9 +12,10 @@ const Skills = () => {
       <span className="section__subtitle">My technical level</span>
 
       <div className="skills__container container grid">
-        <Language/>
         <Frontend />
-        <Backend />
+        <Backend/>
+        <Design />
+        <Language/>
       </div>
     </section>
   );

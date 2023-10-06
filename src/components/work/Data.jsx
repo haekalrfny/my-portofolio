@@ -44,7 +44,7 @@ export const projectsData = [
     image: Work4,
     title: "Calculator App",
     category: "web",
-    link: "#",
+    link: "https://github.com/haekalrfny/calculator-app",
   },
   {
     id: 5,
