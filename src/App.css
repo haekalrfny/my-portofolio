@@ -399,7 +399,8 @@ img {
 .nav__logo,
 .nav__toggle {
   color: var(--title-color);
-  font-weight: var(--font-medium);
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .nav__list {
