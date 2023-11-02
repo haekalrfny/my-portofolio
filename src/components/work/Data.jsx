@@ -27,17 +27,17 @@ export const projectsData = [
   },
   {
     id: 2,
-    image: Work2,
-    title: "Cari Kuliner",
-    category: "web",
-    link: "https://carikuliner.vercel.app/",
-  },
-  {
-    id: 3,
     image: Work3,
     title: "Wisata App",
     category: "web",
     link: "https://wisata-app-psi.vercel.app/",
+  },
+  {
+    id: 3,
+    image: Work2,
+    title: "Cari Kuliner",
+    category: "web",
+    link: "https://carikuliner.vercel.app/",
   },
   {
     id: 4,
