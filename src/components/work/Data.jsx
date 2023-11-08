@@ -16,6 +16,7 @@ import Work15 from "../../assets/Design/Design10.png";
 import Work16 from "../../assets/Design/Design11.jpg";
 import Work17 from "../../assets/Design/Design12.png";
 import Work18 from "../../assets/Design/Design13.png";
+import Work19 from "../../assets/Certificate/Certificate1.jpg"
 
 export const projectsData = [
   {
@@ -144,6 +145,13 @@ export const projectsData = [
     category: "draw",
     link: "#",
   },
+  {
+    id: 20,
+    image: Work19,
+    title: "Certificate Dicoding",
+    category: "certificate",
+    link: "https://www.dicoding.com/certificates/KEXLL69Y4XG2",
+  },
 ];
 
 export const projectsNav = [
@@ -151,4 +159,5 @@ export const projectsNav = [
   { name: "web" },
   { name: "design" },
   { name: "draw" },
+  {name : "certificate"}
 ];
