@@ -869,12 +869,12 @@ img {
   border-radius: 0.5rem;
   width: 295px;
   height: min-content;
+
 }
 
 .work__img {
   width: 100%;
   border-radius: 0.5rem;
-  margin-bottom: var(--mb-0-5);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -902,6 +902,18 @@ img {
 
 .work__button:hover .work__button-icon {
   transform: translateX(0.25rem);
+}
+
+.work__icon-parent {
+  /* background-color: red; */
+  margin-bottom: 2px;
+  display: flex;
+  justify-items: center;
+  gap: 10px;
+}
+
+.work__icon {
+  width: 15px
 }
 
 /* Active work */

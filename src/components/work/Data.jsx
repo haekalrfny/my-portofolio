@@ -1,3 +1,12 @@
+import html from "../../assets/Icon/html.png"
+import css from "../../assets/Icon/css.png"
+import javascript from "../../assets/Icon/javascript.png"
+import react from "../../assets/Icon/react.png"
+import tailwind from "../../assets/Icon/tailwind.png"
+import figma from "../../assets/Icon/figma.png"
+import canva from "../../assets/Icon/canva.png"
+import ibispaint from "../../assets/Icon/ibis-paint.png"
+import dicoding from "../../assets/Icon/dicoding.jpg"
 import Work1 from "../../assets/Web Dev/Web1.png";
 import Work2 from "../../assets/Web Dev/Web2.png";
 import Work3 from "../../assets/Web Dev/Web3.png";
@@ -25,6 +34,7 @@ export const projectsData = [
     title: "Maken Living (Admin Dashboard)",
     category: "web",
     link: "#",
+    icon: [react, tailwind]
   },
   {
     id: 2,
@@ -32,6 +42,7 @@ export const projectsData = [
     title: "Wisata App",
     category: "web",
     link: "https://wisata-app-psi.vercel.app/",
+    icon: [react, tailwind]
   },
   {
     id: 3,
@@ -39,6 +50,7 @@ export const projectsData = [
     title: "Cari Kuliner",
     category: "web",
     link: "https://carikuliner.vercel.app/",
+    icon: [react, tailwind]
   },
   {
     id: 4,
@@ -46,6 +58,7 @@ export const projectsData = [
     title: "Calculator App",
     category: "web",
     link: "https://github.com/haekalrfny/calculator-app",
+    icon: [html, css, javascript]
   },
   {
     id: 5,
@@ -53,6 +66,7 @@ export const projectsData = [
     title: "Weather App",
     category: "web",
     link: "https://weather-app-nu-opal.vercel.app/",
+    icon: [html, javascript, tailwind]
   },
   {
     id: 7,
@@ -60,6 +74,7 @@ export const projectsData = [
     title: "Maken Living Web Design",
     category: "design",
     link: "#",
+    icon : [figma]
   },
   {
     id: 8,
@@ -67,6 +82,7 @@ export const projectsData = [
     title: "Practice Figma",
     category: "design",
     link: "#",
+    icon : [figma]
   },
   {
     id: 9,
@@ -74,6 +90,7 @@ export const projectsData = [
     title: "Cari Kuliner App Design",
     category: "design",
     link: "#",
+    icon: [figma]
   },
   {
     id: 10,
@@ -81,6 +98,7 @@ export const projectsData = [
     title: "E-Commerce Card",
     category: "design",
     link: "#",
+    icon : [figma]
   },
   {
     id: 11,
@@ -88,6 +106,7 @@ export const projectsData = [
     title: "Kurma Brand",
     category: "design",
     link: "#",
+    icon : [canva]
   },
   {
     id: 12,
@@ -95,6 +114,7 @@ export const projectsData = [
     title: "Covid 19 Poster",
     category: "design",
     link: "#",
+    icon : [canva]
   },
   {
     id: 13,
@@ -102,6 +122,7 @@ export const projectsData = [
     title: "Kedai Matcha Poster",
     category: "design",
     link: "#",
+    icon : [canva]
   },
   {
     id: 14,
@@ -109,6 +130,7 @@ export const projectsData = [
     title: "Kedai Matcha Banner",
     category: "design",
     link: "#",
+    icon : [canva]
   },
   {
     id: 15,
@@ -116,6 +138,7 @@ export const projectsData = [
     title: "My Design",
     category: "draw",
     link: "#",
+    icon : [ibispaint]
   },
   {
     id: 16,
@@ -123,6 +146,7 @@ export const projectsData = [
     title: "My Design",
     category: "draw",
     link: "#",
+    icon: [ibispaint]
   },
   {
     id: 17,
@@ -130,6 +154,7 @@ export const projectsData = [
     title: "My Design",
     category: "draw",
     link: "#",
+    icon: [ibispaint]
   },
   {
     id: 18,
@@ -137,6 +162,7 @@ export const projectsData = [
     title: "My Design",
     category: "draw",
     link: "#",
+    icon: [ibispaint]
   },
   {
     id: 19,
@@ -144,6 +170,7 @@ export const projectsData = [
     title: "My Design",
     category: "draw",
     link: "#",
+    icon : [ibispaint]
   },
   {
     id: 20,
@@ -151,6 +178,7 @@ export const projectsData = [
     title: "Certificate Dicoding",
     category: "certificate",
     link: "https://www.dicoding.com/certificates/KEXLL69Y4XG2",
+    icon : [dicoding]
   },
 ];
 
