@@ -26,6 +26,7 @@ import Work16 from "../../assets/Design/Design11.jpg";
 import Work17 from "../../assets/Design/Design12.png";
 import Work18 from "../../assets/Design/Design13.png";
 import Work19 from "../../assets/Certificate/Certificate1.jpg"
+import Work20 from "../../assets/Certificate/Certificate2.jpg"
 
 export const projectsData = [
   {
@@ -175,9 +176,17 @@ export const projectsData = [
   {
     id: 20,
     image: Work19,
-    title: "Certificate Dicoding",
+    title: "Belajar Dasar Pemrograman JavaScript",
     category: "certificate",
     link: "https://www.dicoding.com/certificates/KEXLL69Y4XG2",
+    icon : [dicoding]
+  },
+  {
+    id: 21,
+    image: Work20,
+    title: "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+    category: "certificate",
+    link: "https://www.dicoding.com/certificates/1RXY0878MZVM",
     icon : [dicoding]
   },
 ];
