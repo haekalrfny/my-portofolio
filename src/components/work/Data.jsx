@@ -3,6 +3,13 @@ import pdf2 from "../../assets/PDF/Cloud Practitioner Essentials (Belajar Dasar 
 import pdf3 from "../../assets/PDF/Certificate of Participation.pdf"
 import pdf4 from "../../assets/PDF/HTML and CSS Basics Building the Foundation of Web Development.pdf"
 import pdf5 from "../../assets/PDF/Soft Skill - Teamwork and Expectation Management.pdf"
+import pdf6 from "../../assets/PDF/Skill Development Day (Sukses Mengahadapi Penilaian Akhir Tahun).pdf"
+import pdf7 from "../../assets/PDF/Be Skillfull New You.pdf"
+import pdf8 from "../../assets/PDF/Grit (Menjadi Pribadi Tangguh dan Pantang Menyerah).pdf"
+import pdf9 from "../../assets/PDF/Personal Branding (Make Your Personal Brand Speak for You!).pdf"
+import pdf10 from "../../assets/PDF/Gizi Seimbang (Upaya Memaksimalkan Ibadah Ramadhan).pdf"
+import pdf11 from "../../assets/PDF/Bahagia dalam dekapan Alqur'an.pdf"
+import pdf12 from "../../assets/PDF/The Miracle of Giving.pdf"
 import html from "../../assets/Icon/html.png"
 import css from "../../assets/Icon/css.png"
 import javascript from "../../assets/Icon/javascript.png"
@@ -13,6 +20,7 @@ import canva from "../../assets/Icon/canva.png"
 import ibispaint from "../../assets/Icon/ibis-paint.png"
 import dicoding from "../../assets/Icon/dicoding.jpg"
 import rakamin from "../../assets/Icon/rakamin.webp"
+import telkom from "../../assets/Icon/telkom.png"
 import Work1 from "../../assets/Web Dev/Web1.png";
 import Work2 from "../../assets/Web Dev/Web2.png";
 import Work3 from "../../assets/Web Dev/Web3.png";
@@ -36,6 +44,13 @@ import Work20 from "../../assets/Certificate/Certificate2.jpg"
 import Work21 from "../../assets/Certificate/Certificate3.jpg"
 import Work22 from "../../assets/Certificate/Certificate4.jpg"
 import Work23 from "../../assets/Certificate/Certificate5.jpg"
+import Work24 from "../../assets/Certificate/Certificate6.jpg"
+import Work25 from "../../assets/Certificate/Certificate7.jpg"
+import Work26 from "../../assets/Certificate/Certificate8.jpg"
+import Work27 from "../../assets/Certificate/Certificate9.jpg"
+import Work28 from "../../assets/Certificate/Certificate10.jpg"
+import Work29 from "../../assets/Certificate/Certificate11.jpg"
+import Work30 from "../../assets/Certificate/Certificate12.jpg"
 
 export const projectsData = [
   {
@@ -221,6 +236,62 @@ export const projectsData = [
     category: "certificate",
     link: pdf5,
     icon : [rakamin]
+  },
+  {
+    id: 25,
+    image: Work24,
+    title: "Skill Development Day (Sukses Mengahadapi Penilaian Akhir Tahun)",
+    category: "certificate",
+    link: pdf6,
+    icon : [telkom]
+  },
+  {
+    id: 26,
+    image: Work25,
+    title: "Be Skillfull New You",
+    category: "certificate",
+    link: pdf7,
+    icon : [telkom]
+  },
+  {
+    id: 27,
+    image: Work26,
+    title: "Grit (Menjadi Pribadi Tangguh dan Pantang Menyerah)",
+    category: "certificate",
+    link: pdf8,
+    icon : [telkom]
+  },
+  {
+    id: 28,
+    image: Work27,
+    title: "Personal Branding (Make Your Personal Brand Speak for You!)",
+    category: "certificate",
+    link: pdf9,
+    icon : [telkom]
+  },
+  {
+    id: 29,
+    image: Work28,
+    title: "Gizi Seimbang (Upaya Memaksimalkan Ibadah Ramadhan)",
+    category: "certificate",
+    link: pdf10,
+    icon : [telkom]
+  },
+  {
+    id: 30,
+    image: Work29,
+    title: "Bahagia dalam dekapan Alqur'an",
+    category: "certificate",
+    link: pdf11,
+    icon : [telkom]
+  },
+  {
+    id: 31,
+    image: Work30,
+    title: "The Miracle of Giving",
+    category: "certificate",
+    link: pdf12,
+    icon : [telkom]
   },
 ];
 

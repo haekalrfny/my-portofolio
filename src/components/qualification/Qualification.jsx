@@ -49,6 +49,23 @@ const Qualification = () => {
           >
 
 <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Rakamin Academy</h3>
+                <span className="qualification__subtitle">
+                  Bandung - Online Course
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2023 - 2023
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+<div className="qualification__data">
               <div></div>
 
               <div>
