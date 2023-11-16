@@ -1,3 +1,8 @@
+import pdf1 from "../../assets/PDF/Belajar Dasar Pemrograman JavaScript.pdf"
+import pdf2 from "../../assets/PDF/Cloud Practitioner Essentials (Belajar Dasar AWS Cloud).pdf"
+import pdf3 from "../../assets/PDF/Certificate of Participation.pdf"
+import pdf4 from "../../assets/PDF/HTML and CSS Basics Building the Foundation of Web Development.pdf"
+import pdf5 from "../../assets/PDF/Soft Skill - Teamwork and Expectation Management.pdf"
 import html from "../../assets/Icon/html.png"
 import css from "../../assets/Icon/css.png"
 import javascript from "../../assets/Icon/javascript.png"
@@ -7,6 +12,7 @@ import figma from "../../assets/Icon/figma.png"
 import canva from "../../assets/Icon/canva.png"
 import ibispaint from "../../assets/Icon/ibis-paint.png"
 import dicoding from "../../assets/Icon/dicoding.jpg"
+import rakamin from "../../assets/Icon/rakamin.webp"
 import Work1 from "../../assets/Web Dev/Web1.png";
 import Work2 from "../../assets/Web Dev/Web2.png";
 import Work3 from "../../assets/Web Dev/Web3.png";
@@ -27,6 +33,9 @@ import Work17 from "../../assets/Design/Design12.png";
 import Work18 from "../../assets/Design/Design13.png";
 import Work19 from "../../assets/Certificate/Certificate1.jpg"
 import Work20 from "../../assets/Certificate/Certificate2.jpg"
+import Work21 from "../../assets/Certificate/Certificate3.jpg"
+import Work22 from "../../assets/Certificate/Certificate4.jpg"
+import Work23 from "../../assets/Certificate/Certificate5.jpg"
 
 export const projectsData = [
   {
@@ -178,7 +187,7 @@ export const projectsData = [
     image: Work19,
     title: "Belajar Dasar Pemrograman JavaScript",
     category: "certificate",
-    link: "https://www.dicoding.com/certificates/KEXLL69Y4XG2",
+    link: pdf1,
     icon : [dicoding]
   },
   {
@@ -186,8 +195,32 @@ export const projectsData = [
     image: Work20,
     title: "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
     category: "certificate",
-    link: "https://www.dicoding.com/certificates/1RXY0878MZVM",
+    link: pdf2,
     icon : [dicoding]
+  },
+  {
+    id: 22,
+    image: Work21,
+    title: "Certificate of Participation",
+    category: "certificate",
+    link: pdf3,
+    icon : [rakamin]
+  },
+  {
+    id: 23,
+    image: Work22,
+    title: "HTML and CSS Basics: Building the Foundation of Web Development",
+    category: "certificate",
+    link: pdf4,
+    icon : [rakamin]
+  },
+  {
+    id: 24,
+    image: Work23,
+    title: "Soft Skill - Teamwork and Expectation Management",
+    category: "certificate",
+    link: pdf5,
+    icon : [rakamin]
   },
 ];
 
