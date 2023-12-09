@@ -21,6 +21,8 @@ import ibispaint from "../../assets/Icon/ibis-paint.png"
 import dicoding from "../../assets/Icon/dicoding.jpg"
 import rakamin from "../../assets/Icon/rakamin.webp"
 import telkom from "../../assets/Icon/telkom.png"
+import next from "../../assets/Icon/next-js.svg"
+import convex from "../../assets/Icon/convex.png"
 import Work1 from "../../assets/Web Dev/Web1.png";
 import Work2 from "../../assets/Web Dev/Web2.png";
 import Work3 from "../../assets/Web Dev/Web3.png";
@@ -51,6 +53,7 @@ import Work27 from "../../assets/Certificate/Certificate9.jpg"
 import Work28 from "../../assets/Certificate/Certificate10.jpg"
 import Work29 from "../../assets/Certificate/Certificate11.jpg"
 import Work30 from "../../assets/Certificate/Certificate12.jpg"
+import Work31 from "../../assets/Web Dev/Web6.png"
 
 export const projectsData = [
   {
@@ -292,6 +295,14 @@ export const projectsData = [
     category: "certificate",
     link: pdf12,
     icon : [telkom]
+  },
+  {
+    id: 32,
+    image: Work31,
+    title: "IdeKala (Task App)",
+    category: "web",
+    link: "https://ide-kala.vercel.app/",
+    icon : [next,tailwind,convex]
   },
 ];
 
