@@ -1,5 +1,5 @@
 import React from "react";
-import "../../App.css"
+import "../../App.css";
 import { useState } from "react";
 
 const Qualification = () => {
@@ -47,8 +47,7 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-
-<div className="qualification__data">
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Rakamin Academy</h3>
                 <span className="qualification__subtitle">
@@ -65,7 +64,7 @@ const Qualification = () => {
               </div>
             </div>
 
-<div className="qualification__data">
+            <div className="qualification__data">
               <div></div>
 
               <div>
@@ -83,7 +82,7 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Pondok IT</h3>
@@ -91,7 +90,7 @@ const Qualification = () => {
                   Yogyakarta - Islamic Boarding School
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
                 </div>
               </div>
 
@@ -163,13 +162,31 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Rumah Peduli Umat</h3>
+                <span className="qualification__subtitle">
+                  Bandung - Software Engineer
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2023 - Present
+                </div>
+              </div>
+            </div>
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Maken Living</h3>
                 <span className="qualification__subtitle">
                   Yogyakarta - Web Development
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Present
+                  <i className="uil uil-calendar-alt"></i> 2023 - 2023
                 </div>
               </div>
 
@@ -188,7 +205,9 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">SMK Telkom Bandung (Intership) </h3>
+                <h3 className="qualification__title">
+                  SMK Telkom Bandung (Intership){" "}
+                </h3>
                 <span className="qualification__subtitle">
                   Bandung - Intership
                 </span>
@@ -197,8 +216,6 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
-
-            
           </div>
         </div>
       </div>

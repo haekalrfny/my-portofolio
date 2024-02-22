@@ -869,7 +869,6 @@ img {
   border-radius: 0.5rem;
   width: 295px;
   height: min-content;
-
 }
 
 .work__img {
@@ -913,7 +912,7 @@ img {
 }
 
 .work__icon {
-  width: 15px
+  width: 15px;
 }
 
 /* Active work */
