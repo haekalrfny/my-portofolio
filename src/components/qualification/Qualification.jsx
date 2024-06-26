@@ -172,10 +172,10 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Rumah Peduli Umat</h3>
                 <span className="qualification__subtitle">
-                  Bandung - Software Engineer
+                  Bandung - Fullstack Developer
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Present
+                  <i className="uil uil-calendar-alt"></i> 2024 - Present
                 </div>
               </div>
             </div>

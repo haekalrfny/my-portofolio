@@ -1,5 +1,5 @@
 import React from "react";
-import "../../App.css"
+import "../../App.css";
 
 const Data = () => {
   return (
@@ -56,10 +56,9 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Web Developer & Designer</h3>
+      <h3 className="home__subtitle">Fullstack Developer & Designer</h3>
       <p className="home__description">
-        a web developer proudly representing Indonesia. I have an
-        immense passion for my profession.
+        I am a full-stack developer proficient in JavaScript.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

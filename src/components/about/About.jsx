@@ -1,8 +1,8 @@
 import React from "react";
-import '../../App.css'
+import "../../App.css";
 import AboutImg from "../../assets/me.jpg";
 import Info from "./Info";
-import CV from "../../assets/Abdurrahman Haekal Rifany Resume.pdf"
+import CV from "../../assets/My Resume.pdf";
 
 const About = () => {
   return (
