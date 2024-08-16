@@ -56,7 +56,7 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Fullstack Developer & Designer</h3>
+      <h3 className="home__subtitle">Fullstack Developer</h3>
       <p className="home__description">
         I am a full-stack developer proficient in JavaScript.
       </p>

@@ -54,7 +54,9 @@ import Work28 from "../../assets/Certificate/Certificate10.jpg";
 import Work29 from "../../assets/Certificate/Certificate11.jpg";
 import Work30 from "../../assets/Certificate/Certificate12.jpg";
 import Work31 from "../../assets/Web Dev/Web6.png";
-
+import Work32 from "../../assets/Web Dev/Web7.png";
+import nodejs from "../../assets/Icon/nodejs.png";
+import mysql from "../../assets/Icon/mysql.png";
 export const projectsData = [
   {
     id: 1,
@@ -303,6 +305,14 @@ export const projectsData = [
     category: "web",
     link: "https://ide-kala.vercel.app/",
     icon: [next, tailwind, convex],
+  },
+  {
+    id: 33,
+    image: Work32,
+    title: "Rumah Peduli Umat (Management information system)",
+    category: "web",
+    link: "https://rpu-sim.rpu.or.id",
+    icon: [react, tailwind, nodejs, mysql],
   },
 ];
 
