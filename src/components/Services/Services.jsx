@@ -1,5 +1,5 @@
 import React from "react";
-import "../../App.css"
+import "../../App.css";
 import { useState } from "react";
 
 const Services = () => {
@@ -42,12 +42,10 @@ const Services = () => {
               ></i>
               <h3 className="services__modal-title">Web Development</h3>
               <p className="services__modal-description">
-                I possess proficiency in utilizing React JS as my frontend
-                library and employ Tailwind CSS for styling. Currently, I am in
-                the process of acquiring proficiency in Express JS for my
-                backend development. Furthermore, I am contemplating delving
-                into technologies such as React Native and its counterparts for
-                mobile application development.
+                I use ReactJS for frontend development and Tailwind CSS for
+                styling, with Shadcn as an additional option if needed. For the
+                backend, I utilize Express and Node.js. My database solutions
+                include both MySQL and MongoDB.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
