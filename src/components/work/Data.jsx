@@ -57,6 +57,8 @@ import Work31 from "../../assets/Web Dev/Web6.png";
 import Work32 from "../../assets/Web Dev/Web7.png";
 import nodejs from "../../assets/Icon/nodejs.png";
 import mysql from "../../assets/Icon/mysql.png";
+import Work33 from "../../assets/Web Dev/Web8.png";
+import firebase from "../../assets/Icon/firebase.png";
 export const projectsData = [
   {
     id: 1,
@@ -313,6 +315,14 @@ export const projectsData = [
     category: "web",
     link: "https://rpu-sim.rpu.or.id",
     icon: [react, tailwind, nodejs, mysql],
+  },
+  {
+    id: 34,
+    image: Work33,
+    title: "Sapa Chat (Chat App)",
+    category: "web",
+    link: "https://sapa-chat.vercel.app/",
+    icon: [react, tailwind, nodejs, firebase],
   },
 ];
 
